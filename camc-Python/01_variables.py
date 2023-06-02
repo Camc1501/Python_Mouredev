@@ -20,9 +20,18 @@ print(my_bool_variable)
 print(my_string_variable,my_int_variable,my_bool_variable)
 print('Este es el valor de:',my_bool_variable)
 
+print(type(print(my_string_variable,my_int_variable,my_bool_variable))) #Tipo NoneType
+
 #Algunas funciones del Sistema
 print(len(my_string_variable))
 
 #Variables en una sola línea
 name, surname, alias, age = "Camilo", 'Martínez', 'Camc', 29
 print('Me llamo:',name,surname,'Mi edad es:',age,'y mi alias es:',alias)
+
+#Inputs
+name = input('Cuál es tu nombre: ')
+age = input('Cuantos años tienes? ')
+
+print(name)
+print(age)

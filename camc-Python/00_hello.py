@@ -23,4 +23,10 @@ print(type(5)) #Tipo 'int'
 print(type(1.5)) #Tipo 'float'
 print(type(1+5j)) #Tipo 'complex'
 print(type(True)) #Tipo 'bool'
-print(type(print(my_string_variable,my_int_variable,my_bool_variable))) #Tipo NoneType
+
+
+print(float(3)) #castear int a float
+print(bool(0)) #Castea int a boolean
+
+name= 'lizz'
+print(name[0:2])
